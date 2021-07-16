@@ -22,15 +22,13 @@ header {
         align-items: center;
         justify-content: space-between;
 
-        .enquiry {
-          flex: 7;
+        i {
+          margin-left: 0.5em;
         }
 
         .social {
           display: flex;
           align-items: center;
-          justify-content: space-between;
-          flex: 2;
         }
       }
       .right {
@@ -85,14 +83,14 @@ header {
       display: flex;
       align-items: center;
       color: $dark;
-      padding: 3em;
+      padding: 4em;
 
       .content {
         flex: 6;
         line-height: 4em;
 
         p {
-          font-size: 2em;
+          font-size: 1.7em;
           font-weight: 600;
         }
         h1 {

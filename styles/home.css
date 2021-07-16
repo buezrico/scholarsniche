@@ -41,10 +41,8 @@ header .topbar .wrapper .left {
           justify-content: space-between;
 }
 
-header .topbar .wrapper .left .enquiry {
-  -webkit-box-flex: 7;
-      -ms-flex: 7;
-          flex: 7;
+header .topbar .wrapper .left i {
+  margin-left: 0.5em;
 }
 
 header .topbar .wrapper .left .social {
@@ -54,12 +52,6 @@ header .topbar .wrapper .left .social {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
 }
 
 header .topbar .wrapper .right {
@@ -139,7 +131,7 @@ header .banner .wrapper {
       -ms-flex-align: center;
           align-items: center;
   color: #000000;
-  padding: 3em;
+  padding: 4em;
 }
 
 header .banner .wrapper .content {
@@ -150,7 +142,7 @@ header .banner .wrapper .content {
 }
 
 header .banner .wrapper .content p {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 600;
 }
 
