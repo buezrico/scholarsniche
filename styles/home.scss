@@ -83,14 +83,14 @@ header {
       display: flex;
       align-items: center;
       color: $dark;
-      padding: 4em;
+      padding: 4em 7em;
 
       .content {
         flex: 6;
         line-height: 4em;
 
         p {
-          font-size: 1.7em;
+          font-size: 2em;
           font-weight: 600;
         }
         h1 {
@@ -103,7 +103,7 @@ header {
           .btn {
             border-radius: 0.3em;
             margin-right: 0.8em;
-            padding: 0.1em 0.5em;
+            padding: 0.2em 0.6em;
           }
         }
       }
@@ -117,5 +117,8 @@ header {
         }
       }
     }
+  }
+
+  .features {
   }
 }

@@ -131,7 +131,7 @@ header .banner .wrapper {
       -ms-flex-align: center;
           align-items: center;
   color: #000000;
-  padding: 4em;
+  padding: 4em 7em;
 }
 
 header .banner .wrapper .content {
@@ -142,7 +142,7 @@ header .banner .wrapper .content {
 }
 
 header .banner .wrapper .content p {
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: 600;
 }
 
@@ -157,7 +157,7 @@ header .banner .wrapper .content .button {
 header .banner .wrapper .content .button .btn {
   border-radius: 0.3em;
   margin-right: 0.8em;
-  padding: 0.1em 0.5em;
+  padding: 0.2em 0.6em;
 }
 
 header .banner .wrapper .image {
