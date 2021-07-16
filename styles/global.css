@@ -11514,9 +11514,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
-p {
+p, h1, .h1 {
   margin: 0;
 }
 /*# sourceMappingURL=global.css.map */
