@@ -122,6 +122,7 @@ header {
   .wrapper {
     .content {
       display: grid;
+      grid-gap: 3em;
       place-items: center;
       grid-template-columns: repeat(3, 1fr);
     }
@@ -144,17 +145,15 @@ header {
 }
 
 .news {
-  height: 100vh;
-
   .content {
     display: grid;
+    grid-gap: 3em;
     place-items: center;
     grid-template-columns: repeat(4, 1fr);
 
     .news-card {
-      filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.25));
+      filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
       border-radius: 16px;
-      margin: 0.5em;
 
       img {
         border-radius: 16px 16px 0 0;
@@ -163,8 +162,33 @@ header {
         font-size: 1em;
       }
       p {
-        font-size: 0.7em;
+        font-size: 0.6em;
         color: #848c96;
+      }
+    }
+  }
+}
+
+.comment {
+  .wrapper {
+    .content {
+      display: flex;
+      justify-content: center;
+
+      .form {
+        padding: 2em;
+        p {
+          font-weight: 800;
+          font-size: 1.3em;
+          text-align: center;
+          margin-bottom: 1em;
+        }
+        .form-control {
+          margin-bottom: 1em;
+        }
+        .btn {
+          float: right;
+        }
       }
     }
   }
