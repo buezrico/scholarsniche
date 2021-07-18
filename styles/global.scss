@@ -38,3 +38,28 @@ h1 {
   font-size: 2em;
   margin: 2em;
 }
+
+.form {
+  padding: 2em;
+  p {
+    font-weight: 800;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .comment-input {
+    margin-bottom: 1em;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      font-size: 0.8em;
+    }
+  }
+
+  .btn {
+    float: right;
+  }
+}

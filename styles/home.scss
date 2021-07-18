@@ -174,20 +174,45 @@ header {
     .content {
       display: flex;
       justify-content: center;
+    }
+  }
+}
+
+footer {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    #0080ff;
+  padding: 2em 0;
+  margin-top: 3em;
+  color: $light;
+
+  .wrapper {
+    display: flex;
+    .left {
+      flex: 5;
 
       .form {
-        padding: 2em;
-        p {
-          font-weight: 800;
-          font-size: 1.3em;
-          text-align: center;
-          margin-bottom: 1em;
-        }
-        .form-control {
-          margin-bottom: 1em;
-        }
-        .btn {
-          float: right;
+        padding: 2em 2em 4em 2em;
+      }
+    }
+    .right {
+      flex: 7;
+      &-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        ul {
+          list-style: none;
+
+          p {
+            font-weight: 800;
+            font-size: 1.2em;
+          }
+          li {
+            a {
+              color: $light;
+              font-size: 0.8em;
+            }
+          }
         }
       }
     }
