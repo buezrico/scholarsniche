@@ -1,4 +1,5 @@
 header {
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,6 +113,8 @@ header .banner {
       -ms-flex: 1;
           flex: 1;
   padding: 0 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 header .banner .wrapper {
@@ -324,6 +327,9 @@ footer .wrapper .right-content ul li a {
   }
   header nav .wrapper {
     padding: 0 1em;
+  }
+  header .banner {
+    margin-bottom: 0;
   }
   header .banner .wrapper {
     -webkit-box-orient: vertical;
