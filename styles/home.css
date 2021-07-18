@@ -1,5 +1,4 @@
 header {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +124,6 @@ header .banner .wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 90%;
 }
 
 header .banner .wrapper .content p {
@@ -327,6 +325,12 @@ footer .wrapper .right-content ul li a {
   header nav .wrapper {
     padding: 0 1em;
   }
+  header .banner .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   header .banner .wrapper .content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -353,6 +357,14 @@ footer .wrapper .right-content ul li a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  header .banner .wrapper .image {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .banner .wrapper .image img {
+    max-width: 10em;
   }
   .features .wrapper h3 {
     margin-top: 2em;
