@@ -78,6 +78,8 @@ header {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      height: 90%;
+      // background: red;
 
       .content {
         p {
@@ -241,8 +243,17 @@ footer {
     .banner {
       .wrapper {
         .content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           p {
             font-size: 1.3em;
+          }
+
+          .button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
           }
         }
       }

@@ -125,6 +125,7 @@ header .banner .wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 90%;
 }
 
 header .banner .wrapper .content p {
@@ -326,8 +327,32 @@ footer .wrapper .right-content ul li a {
   header nav .wrapper {
     padding: 0 1em;
   }
+  header .banner .wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   header .banner .wrapper .content p {
     font-size: 1.3em;
+  }
+  header .banner .wrapper .content .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .features .wrapper h3 {
     margin-top: 2em;
