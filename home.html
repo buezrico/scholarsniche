@@ -17,15 +17,13 @@
     <header>
       <div class="topbar">
         <div class="container wrapper">
-          <div class="left">
-            <div class="enquiry">
-              <p>Have an enquiry? Call +234 708 654 9814</p>
-            </div>
-            <div class="social">
-              <p>Follow Us</p>
-              <a><i class="fab fa-twitter"></i></a>
-              <a><i class="fab fa-facebook-f"></i></a>
-            </div>
+          <div class="left enquiry">
+            <p>Have an enquiry? Call +234 708 654 9814</p>
+          </div>
+          <div class="center">
+            <p>Follow Us</p>
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-facebook-f"></i></a>
           </div>
           <div class="right">
             <div class="login">
@@ -41,10 +39,11 @@
       <nav class="navbar">
         <div class="container wrapper">
           <div class="navbar-brand">
-            <a><h1>SCHOLARSNICHE</h1></a>
+            <a><h1>SN</h1></a>
           </div>
 
-          <ul class="nav">
+          <i class="fas fa-bars d-md-none"></i>
+          <ul class="nav d-none d-md-flex">
             <li class="nav-item">
               <a class="nav-link">Home</a>
             </li>
@@ -85,7 +84,11 @@
             </div>
           </div>
           <div class="image">
-            <img src="./assets/images/banner-image.png" alt="" />
+            <img
+              src="./assets/images/banner-image.png"
+              alt=""
+              class="d-none d-md-flex"
+            />
           </div>
         </div>
       </div>
@@ -223,44 +226,64 @@
         </div>
         <div class="right">
           <div class="right-content">
-            <ul class="privacy">
+            <div class="privacy">
               <p>Privacy Policy</p>
-              <li class="nav-item"><a class="nav-link">Cookies</a></li>
-              <li class="nav-item"><a class="nav-link">Terms of Use</a></li>
-              <li class="nav-item"><a class="nav-link">Privacy Policy</a></li>
-              <li class="nav-item"><a class="nav-link">Ad Preference</a></li>
-            </ul>
+              <ul class="">
+                <li class="nav-item"><a class="nav-link">Cookies</a></li>
+                <li class="nav-item"><a class="nav-link">Terms of Use</a></li>
+                <li class="nav-item"><a class="nav-link">Privacy Policy</a></li>
+                <li class="nav-item"><a class="nav-link">Ad Preference</a></li>
+              </ul>
+            </div>
 
-            <ul class="applications">
+            <div class="applications">
               <p>Applications</p>
-              <li class="nav-item"><a class="nav-link">Video Tutorials</a></li>
-              <li class="nav-item"><a class="nav-link">E-wallet</a></li>
-              <li class="nav-item"><a class="nav-link">CGPA Calculator</a></li>
-              <li class="nav-item">
-                <a class="nav-link">Download Past Questions</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Upload Past Questions</a>
-              </li>
-            </ul>
+              <ul class="">
+                <li class="nav-item">
+                  <a class="nav-link">Video Tutorials</a>
+                </li>
+                <li class="nav-item"><a class="nav-link">E-wallet</a></li>
+                <li class="nav-item">
+                  <a class="nav-link">CGPA Calculator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Download Past Questions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Upload Past Questions</a>
+                </li>
+              </ul>
+            </div>
 
-            <ul class="social">
+            <div class="social">
               <p>We Are Social</p>
-              <li class="nav-item">
-                <a class="nav-link"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"><i class="fas fa-envelope"></i></a>
-              </li>
-            </ul>
+              <ul class="">
+                <li class="nav-item">
+                  <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"><i class="fas fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
 
-            <ul class="about">
+            <div class="about d-none d-md-block">
               <p>About Us</p>
-            </ul>
+              <ul class="">
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia corrupti distinctio voluptates veritatis facere
+                  quisquam
+                </li>
+              </ul>
+            </div>
           </div>
+          <p class="text-center">
+            <strong>&copy; 2021 DevArchive. All Rights Reserved</strong>
+          </p>
         </div>
       </div>
     </footer>

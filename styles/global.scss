@@ -63,3 +63,9 @@ h1 {
     float: right;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 1.5em;
+  }
+}

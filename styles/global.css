@@ -11576,4 +11576,10 @@ p, h1, .h1 {
 .form .btn {
   float: right;
 }
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 1.5em;
+  }
+}
 /*# sourceMappingURL=global.css.map */
