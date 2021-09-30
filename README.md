@@ -1,3 +1,3 @@
 # scholarsniche frontend design
 
-# scholarsniche.netlify.app
+# https://scholarsniche.netlify.app
